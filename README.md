@@ -61,6 +61,7 @@ CSAI Days 2026 is an international technology event website presenting its Hacka
 `HTML5` `CSS3` `JavaScript` `Responsive Design` `i18n` `RTL`
 
 [![View Live Site](https://img.shields.io/badge/View_Live_Site-555555?style=flat-square)](https://csaidays.medi-asd.org/hackathon.html)
+[![Repository](https://img.shields.io/badge/Repository-24292F?style=flat-square&logo=github&logoColor=white)](https://github.com/issama17/csaidays-2026)
 
 ---
 
