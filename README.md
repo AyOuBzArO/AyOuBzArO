@@ -45,7 +45,7 @@ A full-stack SaaS that turns a niche into a structured, export-ready ebook throu
 
 [![View Live Product](https://img.shields.io/badge/View_Live_Product-555555?style=flat-square)](https://novaquill.org/)
 
-<sub>Future product under active development; its source repository is intentionally private.</sub>
+<sub>Market-ready and live, with ongoing product updates; its source repository is intentionally private.</sub>
 
 ---
 
