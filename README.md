@@ -66,7 +66,7 @@ CSAI Days 2026 is an international technology event website presenting its Hacka
 
 <table>
   <tr>
-    <td width="88" align="center"><img src="assets/projects/devscope-logo.png" width="64" alt="DevScope logo"></td>
+    <td width="88" align="center"><img src="assets/projects/devscope-logo.jpeg" width="64" alt="DevScope logo"></td>
     <td><h3>DevScope</h3><strong>GitHub Portfolio Health Analyzer</strong></td>
   </tr>
 </table>
