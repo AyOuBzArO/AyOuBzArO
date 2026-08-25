@@ -51,6 +51,36 @@ A full-stack SaaS that turns a niche into a structured, export-ready ebook throu
 
 <table>
   <tr>
+    <td width="128" align="center"><img src="assets/projects/siteguard-ai-logo.png" width="112" alt="SiteGuard AI logo"></td>
+    <td><h3>SiteGuard AI</h3><strong>Website Quality &amp; Technical Audit Platform</strong></td>
+  </tr>
+</table>
+
+A website-analysis platform that scans bounded public sites and combines deterministic SEO, accessibility, security, TLS, broken-link, and PageSpeed checks into structured findings, category scores, scan history, and PDF reports. Groq provides contextual explanations and remediation guidance for detected findings while the underlying detection and scoring remain deterministic.
+
+`Python` `Flask` `MySQL` `JavaScript` `Beautiful Soup` `PageSpeed Insights` `Groq` `pytest`
+
+[![View Repository →](https://img.shields.io/badge/View_Repository_%E2%86%92-24292F?style=flat-square&logo=github&logoColor=white)](https://github.com/AyOuBzArO/siteguard-ai)
+
+---
+
+<table>
+  <tr>
+    <td width="104" align="center"><img src="assets/projects/auto-rinta-car-logo.jpeg" width="88" alt="Auto Rinta Car logo"></td>
+    <td><h3>Auto Rinta Car</h3><strong>Bilingual Car Rental Catalogue</strong></td>
+  </tr>
+</table>
+
+A bilingual French/Arabic car-rental web application that lets customers explore database-driven vehicles, pricing, availability, galleries, and direct WhatsApp contact flows. A protected administration area allows staff to manage fleet information, pricing, availability, and vehicle photos while the public experience includes responsive layouts and full Arabic RTL support.
+
+`Python` `Flask` `SQLAlchemy` `SQLite` `JavaScript` `Flask-Login` `Flask-WTF` `pytest`
+
+[![View Live Product →](https://img.shields.io/badge/View_Live_Product_%E2%86%92-555555?style=flat-square)](https://autorintacar.com)
+
+---
+
+<table>
+  <tr>
     <td width="88" align="center"><img src="assets/projects/csai-days-2026-logo.png" width="64" alt="CSAI Days 2026 logo"></td>
     <td><h3>CSAI Days 2026</h3><strong>International Tech Event Website</strong></td>
   </tr>
