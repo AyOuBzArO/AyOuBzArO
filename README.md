@@ -122,7 +122,6 @@ A database-backed business application for managing products, monitoring stock, 
 
 `Python` `FastAPI` `PostgreSQL` `SQLite` `JavaScript` `ApexCharts` `Groq` `Docker`
 
-[![View Live Demo](https://img.shields.io/badge/View_Live_Demo-555555?style=flat-square)](https://inventory-management-system-9dpn.onrender.com)
 [![Repository](https://img.shields.io/badge/Repository-24292F?style=flat-square&logo=github&logoColor=white)](https://github.com/AyOuBzArO/Inventory-management-system)
 
 ## Tech Stack
