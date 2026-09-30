@@ -106,7 +106,6 @@ A full-stack analyzer that uses public GitHub repository data, transparent heuri
 
 `Next.js` `React` `TypeScript` `FastAPI` `Python` `SQLite` `OpenRouter` `Docker`
 
-[![View Live Demo](https://img.shields.io/badge/View_Live_Demo-555555?style=flat-square)](https://developer-portfolio-analytics-platf.vercel.app)
 [![Repository](https://img.shields.io/badge/Repository-24292F?style=flat-square&logo=github&logoColor=white)](https://github.com/AyOuBzArO/Developer-Portfolio-Analytics-Platform_Devscope)
 
 ---
