@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520" role="img" aria-labelledby="title desc">
+  <title id="title">Full-stack product system blueprint</title>
+  <desc id="desc">A designed architecture map connecting experience, application, data, intelligence and delivery layers.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#111318"/><stop offset="1" stop-color="#050607"/></linearGradient>
+    <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#56ccf2"/><stop offset="1" stop-color="#2f80ed"/></linearGradient>
+    <filter id="shadow" x="-20%" y="-30%" width="140%" height="160%"><feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#000" flood-opacity=".45"/></filter>
+    <filter id="glow"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#fff" opacity=".055"/></pattern>
+    <style>
+      .eyebrow{font:700 13px 'Segoe UI',Arial,sans-serif;letter-spacing:4px;fill:#56ccf2}
+      .headline{font:800 34px 'Segoe UI',Arial,sans-serif;letter-spacing:-1px;fill:#f6f7f9}
+      .copy{font:400 15px 'Segoe UI',Arial,sans-serif;fill:#9298a3}
+      .layer{font:800 13px 'Segoe UI',Arial,sans-serif;letter-spacing:2px;fill:#f6f7f9}
+      .tech{font:500 14px 'Segoe UI',Arial,sans-serif;fill:#aeb4be}
+      .connector{stroke-dasharray:8 10;animation:flow 6s linear infinite}
+      .beacon{animation:beacon 2s ease-in-out infinite;transform-origin:center}
+      @keyframes flow{to{stroke-dashoffset:-144}}
+      @keyframes beacon{50%{opacity:.28;transform:scale(.72)}}
+      @media (prefers-reduced-motion:reduce){.connector,.beacon{animation:none}.motion-dot{display:none}}
+    </style>
+  </defs>
+  <rect width="1200" height="520" rx="28" fill="url(#bg)"/>
+  <rect x="1" y="1" width="1198" height="518" rx="27" fill="none" stroke="#2b2f36"/>
+  <rect width="1200" height="520" rx="28" fill="url(#dots)"/>
+  <text x="54" y="63" class="eyebrow">SYSTEM BLUEPRINT</text>
+  <text x="54" y="107" class="headline">One product. Five connected layers.</text>
+  <text x="54" y="136" class="copy">The interface is only useful when the system behind it is coherent.</text>
+
+  <path d="M145 308H1055" stroke="#2f80ed" stroke-opacity=".28" stroke-width="14" stroke-linecap="round"/>
+  <path d="M145 308H1055" stroke="url(#blue)" stroke-width="3" stroke-linecap="round" class="connector"/>
+  <path id="mainline" d="M145 308H1055" fill="none"/>
+  <circle r="7" fill="#fff" filter="url(#glow)" class="motion-dot"><animateMotion dur="6s" repeatCount="indefinite"><mpath href="#mainline"/></animateMotion></circle>
+
+  <g transform="translate(55 210)" filter="url(#shadow)">
+    <rect width="190" height="195" rx="24" fill="#12151a" stroke="#343943"/>
+    <rect x="18" y="18" width="48" height="48" rx="14" fill="url(#blue)"/>
+    <path d="M31 34h22M31 43h15M31 52h19" stroke="#071015" stroke-width="4" stroke-linecap="round"/>
+    <text x="20" y="99" class="layer">EXPERIENCE</text><text x="20" y="129" class="tech">React · Next.js</text><text x="20" y="153" class="tech">TypeScript · Tailwind</text>
+  </g>
+  <g transform="translate(280 175)" filter="url(#shadow)">
+    <rect width="190" height="230" rx="24" fill="#12151a" stroke="#343943"/>
+    <rect x="18" y="18" width="48" height="48" rx="14" fill="url(#blue)"/>
+    <path d="M34 31l-9 11 9 11M50 31l9 11-9 11M45 27l-7 30" fill="none" stroke="#071015" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="20" y="99" class="layer">APPLICATION</text><text x="20" y="129" class="tech">Python · FastAPI</text><text x="20" y="153" class="tech">Flask · REST APIs</text><text x="20" y="185" class="copy">Business logic</text>
+  </g>
+  <g transform="translate(505 210)" filter="url(#shadow)">
+    <rect width="190" height="195" rx="24" fill="#12151a" stroke="#343943"/>
+    <rect x="18" y="18" width="48" height="48" rx="14" fill="url(#blue)"/>
+    <ellipse cx="42" cy="31" rx="15" ry="7" fill="none" stroke="#071015" stroke-width="4"/><path d="M27 31v22c0 9 30 9 30 0V31M27 42c0 9 30 9 30 0" fill="none" stroke="#071015" stroke-width="4"/>
+    <text x="20" y="99" class="layer">DATA</text><text x="20" y="129" class="tech">PostgreSQL · SQLite</text><text x="20" y="153" class="tech">SQLAlchemy · Prisma</text>
+  </g>
+  <g transform="translate(730 175)" filter="url(#shadow)">
+    <rect width="190" height="230" rx="24" fill="#12151a" stroke="#343943"/>
+    <rect x="18" y="18" width="48" height="48" rx="14" fill="url(#blue)"/>
+    <path d="M42 25l4 12 12 4-12 4-4 12-4-12-12-4 12-4 4-12z" fill="#071015"/>
+    <text x="20" y="99" class="layer">INTELLIGENCE</text><text x="20" y="129" class="tech">Groq · OpenRouter</text><text x="20" y="153" class="tech">Contextual AI flows</text><text x="20" y="185" class="copy">Useful, bounded AI</text>
+  </g>
+  <g transform="translate(955 210)" filter="url(#shadow)">
+    <rect width="190" height="195" rx="24" fill="#12151a" stroke="#343943"/>
+    <rect x="18" y="18" width="48" height="48" rx="14" fill="url(#blue)"/>
+    <path d="M27 45h30M32 36h20M37 27h10M34 53l8 7 8-7" fill="none" stroke="#071015" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="20" y="99" class="layer">DELIVERY</text><text x="20" y="129" class="tech">Docker · Linux</text><text x="20" y="153" class="tech">Git · GitHub</text>
+  </g>
+  <circle cx="145" cy="308" r="11" fill="#56ccf2" class="beacon"/>
+  <circle cx="1055" cy="308" r="11" fill="#2f80ed" class="beacon" style="animation-delay:1s"/>
+  <text x="600" y="474" text-anchor="middle" class="copy">Designed as a system • shipped as a product • improved with evidence</text>
+</svg>

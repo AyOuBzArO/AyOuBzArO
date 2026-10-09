@@ -2,180 +2,145 @@
   <img src="assets/brand/ayoubzaro-banner.png" width="100%" alt="AyOuBzArO — Ayoub Zarkouni, Full-Stack Developer">
 </p>
 
-<p align="center">
-  <a href="https://www.fiverr.com/ayoub_zarkouni"><img src="https://img.shields.io/badge/Hire_Me_on_Fiverr-1DBF73?style=for-the-badge&logo=fiverr&logoColor=white" alt="Hire Me on Fiverr"></a>
-  <a href="https://github.com/AyOuBzArO"><img src="https://img.shields.io/badge/GitHub-24292F?style=for-the-badge&logo=github&logoColor=white" alt="GitHub profile"></a>
-  <a href="https://www.linkedin.com/in/ayoub-zarkouni-2207373b7"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn profile"></a>
-  <a href="mailto:ayoubzarkouni30@gmail.com"><img src="https://img.shields.io/badge/Email-555555?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Ayoub Zarkouni"></a>
-</p>
+<img align="right" width="39%" src="assets/brand/ayoub-speaking-organic.png" alt="Ayoub Zarkouni speaking at a technology event">
 
 <br>
 
-## About Me
+## Building products that work beyond the demo.
 
-I'm **Ayoub Zarkouni**, the developer behind **AyOuBzArO**. I turn ideas and business requirements into complete working software—from backend architecture, APIs, and databases to responsive interfaces and AI-powered features.
+I'm **Ayoub Zarkouni**, a full-stack developer who turns ideas and business requirements into reliable software—from product flows and interfaces to APIs, databases, deployment, and carefully bounded AI features.
 
-My work spans full-stack applications, SaaS products, business systems, API development, and practical AI integrations. I care about the whole product: how it works, how it feels to use, and how reliably it solves the problem it was built for.
+I build **SaaS products**, **business systems**, **developer tools**, and **connected web applications** with a focus on clarity, maintainability, and real-world usefulness.
 
-## What I Build
+`SaaS` · `Business Software` · `REST APIs` · `AI Integrations` · `Product Engineering`
 
-<table>
-  <tr>
-    <td width="50%"><strong>Product applications</strong><br><sub>Full-stack web apps · SaaS products · MVPs · developer tools</sub></td>
-    <td width="50%"><strong>Business software</strong><br><sub>Admin dashboards · inventory systems · management platforms · analytics</sub></td>
-  </tr>
-  <tr>
-    <td width="50%"><strong>Backend systems</strong><br><sub>Python applications · REST APIs · database-driven workflows</sub></td>
-    <td width="50%"><strong>Connected experiences</strong><br><sub>AI-powered features · LLM workflows · third-party API integrations</sub></td>
-  </tr>
-</table>
+<p>
+  <a href="#selected-work"><img src="https://img.shields.io/badge/Explore_My_Work-2F80ED?style=for-the-badge&logo=github&logoColor=white" alt="Explore my work"></a>
+  <a href="https://www.fiverr.com/ayoub_zarkouni"><img src="https://img.shields.io/badge/Work_With_Me-111111?style=for-the-badge&logo=fiverr&logoColor=white" alt="Work with me on Fiverr"></a>
+</p>
 
-## Featured Projects
+<p>
+  <a href="https://www.linkedin.com/in/ayoub-zarkouni-2207373b7"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn profile"></a>
+  <a href="mailto:ayoubzarkouni30@gmail.com"><img src="https://img.shields.io/badge/Email-555555?style=flat-square&logo=gmail&logoColor=white" alt="Email Ayoub Zarkouni"></a>
+</p>
 
-<table>
-  <tr>
-    <td width="88" align="center"><img src="assets/projects/novaquill-logo.png" width="64" alt="NovaQuill logo"></td>
-    <td><h3>NovaQuill</h3><strong>AI Ebook Generation SaaS Platform</strong></td>
-  </tr>
-</table>
-
-A full-stack SaaS that turns a niche into a structured, export-ready ebook through market analysis, plan-aware generation, quality review, and customizable publishing workflows. The product includes authentication, Stripe subscriptions, background generation, public sharing, and PDF, DOCX, and EPUB exports.
-
-`Python` `FastAPI` `SQLAlchemy` `PostgreSQL` `JavaScript` `Stripe` `Groq` `Docker`
-
-[![View Live Product](https://img.shields.io/badge/View_Live_Product-555555?style=flat-square)](https://novaquill.org/)
-
-<sub>Market-ready and live, with ongoing product updates; its source repository is intentionally private.</sub>
+<br clear="right">
 
 ---
 
+## How I take a product from idea to release
+
+<p align="center">
+  <img src="assets/visuals/build-loop.svg" width="100%" alt="Animated product delivery loop: discover, design, build, validate, ship, and improve">
+</p>
+
+> I care about the whole product: what problem it solves, how the system fits together, how it feels to use, and whether it remains dependable after launch.
+
+## Selected work
+
 <table>
   <tr>
-    <td width="128" align="center"><img src="assets/projects/siteguard-ai-logo.png" width="112" alt="SiteGuard AI logo"></td>
-    <td><h3>SiteGuard AI</h3><strong>Website Quality &amp; Technical Audit Platform</strong></td>
+    <td width="33%" valign="top">
+      <p align="center"><img src="assets/projects/novaquill-logo.png" width="72" alt="NovaQuill logo"></p>
+      <h3 align="center">NovaQuill</h3>
+      <p align="center"><strong>AI Ebook Generation SaaS</strong></p>
+      <p>Turns a niche into a structured, export-ready ebook through research, plan-aware generation, quality review, subscriptions, sharing, and multi-format exports.</p>
+      <p><code>FastAPI</code> <code>PostgreSQL</code> <code>Stripe</code> <code>Groq</code></p>
+      <p align="center"><a href="https://novaquill.org/"><img src="https://img.shields.io/badge/Live_Product-2F80ED?style=flat-square" alt="View NovaQuill live"></a></p>
+    </td>
+    <td width="33%" valign="top">
+      <p align="center"><img src="assets/projects/siteguard-ai-logo.png" width="104" alt="SiteGuard AI logo"></p>
+      <h3 align="center">SiteGuard AI</h3>
+      <p align="center"><strong>Website Quality &amp; Audit Platform</strong></p>
+      <p>Combines deterministic SEO, accessibility, security, TLS, broken-link, and performance checks with contextual remediation guidance.</p>
+      <p><code>Flask</code> <code>MySQL</code> <code>PageSpeed</code> <code>Groq</code></p>
+      <p align="center"><a href="https://github.com/AyOuBzArO/siteguard-ai"><img src="https://img.shields.io/badge/Repository-111111?style=flat-square&logo=github&logoColor=white" alt="View SiteGuard AI repository"></a></p>
+    </td>
+    <td width="33%" valign="top">
+      <p align="center"><img src="assets/projects/auto-rinta-car-logo.jpeg" width="82" alt="Auto Rinta Car logo"></p>
+      <h3 align="center">Auto Rinta Car</h3>
+      <p align="center"><strong>Bilingual Car Rental Platform</strong></p>
+      <p>Lets customers explore vehicles, prices, availability, galleries, and WhatsApp contact flows while staff manage the fleet from a protected workspace.</p>
+      <p><code>Flask</code> <code>SQLAlchemy</code> <code>JavaScript</code> <code>RTL</code></p>
+      <p align="center"><a href="https://autorintacar.com"><img src="https://img.shields.io/badge/Live_Product-2F80ED?style=flat-square" alt="View Auto Rinta Car live"></a></p>
+    </td>
   </tr>
 </table>
 
-A website-analysis platform that scans bounded public sites and combines deterministic SEO, accessibility, security, TLS, broken-link, and PageSpeed checks into structured findings, category scores, scan history, and PDF reports. Groq provides contextual explanations and remediation guidance for detected findings while the underlying detection and scoring remain deterministic.
+<details>
+  <summary><strong>More projects — CSAI Days 2026, DevScope, and IMS</strong></summary>
+  <br>
+  <table>
+    <tr>
+      <td width="88" align="center"><img src="assets/projects/csai-days-2026-logo.png" width="64" alt="CSAI Days 2026 logo"></td>
+      <td><strong>CSAI Days 2026</strong><br>Responsive multilingual event experience with English, French, Spanish, and Arabic RTL support.<br><a href="https://csaidays.medi-asd.org/hackathon.html">Live site</a> · <a href="https://github.com/issama17/csaidays-2026">Repository</a></td>
+    </tr>
+    <tr>
+      <td width="88" align="center"><img src="assets/projects/devscope-logo.jpeg" width="64" alt="DevScope logo"></td>
+      <td><strong>DevScope</strong><br>GitHub portfolio analyzer using public repository data, transparent scoring, analytics, and AI-assisted recommendations.<br><a href="https://github.com/AyOuBzArO/Developer-Portfolio-Analytics-Platform_Devscope">Repository</a></td>
+    </tr>
+    <tr>
+      <td width="88" align="center"><img src="assets/projects/ims-logo.png" width="72" alt="IMS logo"></td>
+      <td><strong>IMS</strong><br>Inventory and sales application with operational dashboards, interactive charts, and a data-aware assistant.<br><a href="https://github.com/AyOuBzArO/Inventory-management-system">Repository</a></td>
+    </tr>
+  </table>
+</details>
 
-`Python` `Flask` `MySQL` `JavaScript` `Beautiful Soup` `PageSpeed Insights` `Groq` `pytest`
+## What I build
 
-[![View Repository →](https://img.shields.io/badge/View_Repository_%E2%86%92-24292F?style=flat-square&logo=github&logoColor=white)](https://github.com/AyOuBzArO/siteguard-ai)
+<table>
+  <tr>
+    <td width="50%"><strong>Product applications</strong><br><sub>SaaS platforms · MVPs · developer tools · customer-facing products</sub></td>
+    <td width="50%"><strong>Business software</strong><br><sub>Admin workspaces · inventory systems · operational dashboards · analytics</sub></td>
+  </tr>
+  <tr>
+    <td width="50%"><strong>Backend systems</strong><br><sub>Python services · REST APIs · authentication · database workflows</sub></td>
+    <td width="50%"><strong>Connected experiences</strong><br><sub>LLM features · payments · third-party APIs · multilingual interfaces</sub></td>
+  </tr>
+</table>
+
+## A full-stack system, not isolated screens
+
+<p align="center">
+  <img src="assets/visuals/system-blueprint.svg" width="100%" alt="Animated system blueprint connecting experience, application, data, intelligence, and delivery layers">
+</p>
+
+## Technology stack
+
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=python,fastapi,flask,js,ts,react,nextjs,tailwind,postgres,sqlite,docker,git,github,linux&amp;perline=7" alt="Python, FastAPI, Flask, JavaScript, TypeScript, React, Next.js, Tailwind CSS, PostgreSQL, SQLite, Docker, Git, GitHub, and Linux icons">
+  </a>
+</p>
+
+<table>
+  <tr><td><strong>Backend</strong></td><td>Python · FastAPI · Flask · REST APIs · SQLAlchemy</td></tr>
+  <tr><td><strong>Frontend</strong></td><td>HTML · CSS · JavaScript · TypeScript · React · Next.js · Tailwind CSS</td></tr>
+  <tr><td><strong>Data</strong></td><td>PostgreSQL · MySQL · SQLite · Prisma</td></tr>
+  <tr><td><strong>AI &amp; integrations</strong></td><td>Groq · OpenRouter · GitHub API · Stripe · PageSpeed Insights</td></tr>
+  <tr><td><strong>Engineering</strong></td><td>Git · GitHub · Docker · Linux · pytest</td></tr>
+</table>
+
+## GitHub activity
+
+<p align="center">
+  <img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=AyOuBzArO&amp;theme=github_dark" alt="AyOuBzArO GitHub contribution summary">
+</p>
+<p align="center">
+  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=AyOuBzArO&amp;theme=github_dark" alt="Repositories by language">
+  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=AyOuBzArO&amp;theme=github_dark" alt="GitHub profile statistics">
+</p>
+
+## Let's build something useful
+
+Have an idea, an existing application, or a business workflow that should become reliable software? I'm available for selected freelance product-development work.
+
+<p align="center">
+  <a href="https://www.fiverr.com/ayoub_zarkouni"><img src="https://img.shields.io/badge/Hire_Me_on_Fiverr-1DBF73?style=for-the-badge&logo=fiverr&logoColor=white" alt="Hire me on Fiverr"></a>
+  <a href="https://www.linkedin.com/in/ayoub-zarkouni-2207373b7"><img src="https://img.shields.io/badge/Connect_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="Connect on LinkedIn"></a>
+  <a href="mailto:ayoubzarkouni30@gmail.com"><img src="https://img.shields.io/badge/Send_an_Email-555555?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Ayoub Zarkouni"></a>
+</p>
 
 ---
 
-<table>
-  <tr>
-    <td width="104" align="center"><img src="assets/projects/auto-rinta-car-logo.jpeg" width="88" alt="Auto Rinta Car logo"></td>
-    <td><h3>Auto Rinta Car</h3><strong>Bilingual Car Rental Catalogue</strong></td>
-  </tr>
-</table>
-
-A bilingual French/Arabic car-rental web application that lets customers explore database-driven vehicles, pricing, availability, galleries, and direct WhatsApp contact flows. A protected administration area allows staff to manage fleet information, pricing, availability, and vehicle photos while the public experience includes responsive layouts and full Arabic RTL support.
-
-`Python` `Flask` `SQLAlchemy` `SQLite` `JavaScript` `Flask-Login` `Flask-WTF` `pytest`
-
-[![View Live Product →](https://img.shields.io/badge/View_Live_Product_%E2%86%92-555555?style=flat-square)](https://autorintacar.com)
-
----
-
-<table>
-  <tr>
-    <td width="88" align="center"><img src="assets/projects/csai-days-2026-logo.png" width="64" alt="CSAI Days 2026 logo"></td>
-    <td><h3>CSAI Days 2026</h3><strong>International Tech Event Website</strong></td>
-  </tr>
-</table>
-
-CSAI Days 2026 is an international technology event website presenting its Hackathon, Conference, and Exhibition through a responsive participant-facing experience. My role focused on frontend implementation across the event pages, multilingual switching in English, French, Spanish, and Arabic, Arabic RTL support, and public application workflows; deployment was handled by collaborator Issam.
-
-`HTML5` `CSS3` `JavaScript` `Responsive Design` `i18n` `RTL`
-
-[![View Live Site](https://img.shields.io/badge/View_Live_Site-555555?style=flat-square)](https://csaidays.medi-asd.org/hackathon.html)
-[![Repository](https://img.shields.io/badge/Repository-24292F?style=flat-square&logo=github&logoColor=white)](https://github.com/issama17/csaidays-2026)
-
----
-
-<table>
-  <tr>
-    <td width="88" align="center"><img src="assets/projects/devscope-logo.jpeg" width="64" alt="DevScope logo"></td>
-    <td><h3>DevScope</h3><strong>GitHub Portfolio Health Analyzer</strong></td>
-  </tr>
-</table>
-
-A full-stack analyzer that uses public GitHub repository data, transparent heuristic scoring, analytics, and AI-assisted recommendations to surface portfolio strengths and areas for improvement. Its results are guidance—not an objective measure of developer quality or hiring suitability.
-
-`Next.js` `React` `TypeScript` `FastAPI` `Python` `SQLite` `OpenRouter` `Docker`
-
-[![Repository](https://img.shields.io/badge/Repository-24292F?style=flat-square&logo=github&logoColor=white)](https://github.com/AyOuBzArO/Developer-Portfolio-Analytics-Platform_Devscope)
-
----
-
-<table>
-  <tr>
-    <td width="104" align="center"><img src="assets/projects/ims-logo.png" width="88" alt="IMS logo"></td>
-    <td><h3>IMS</h3><strong>Inventory &amp; Sales Dashboard</strong></td>
-  </tr>
-</table>
-
-A database-backed business application for managing products, monitoring stock, recording sales, and understanding performance through dashboards and interactive charts. Its embedded assistant answers operational questions using current inventory data.
-
-`Python` `FastAPI` `PostgreSQL` `SQLite` `JavaScript` `ApexCharts` `Groq` `Docker`
-
-[![Repository](https://img.shields.io/badge/Repository-24292F?style=flat-square&logo=github&logoColor=white)](https://github.com/AyOuBzArO/Inventory-management-system)
-
-## Tech Stack
-
-<table>
-  <tr>
-    <td><strong>Backend</strong></td>
-    <td>Python · FastAPI · REST API design · SQLAlchemy</td>
-  </tr>
-  <tr>
-    <td><strong>Frontend</strong></td>
-    <td>HTML · CSS · JavaScript · TypeScript · React · Next.js · Tailwind CSS</td>
-  </tr>
-  <tr>
-    <td><strong>Data</strong></td>
-    <td>PostgreSQL · SQLite · Prisma</td>
-  </tr>
-  <tr>
-    <td><strong>AI & integrations</strong></td>
-    <td>LLM API integration · OpenRouter · Groq · GitHub REST API · Stripe</td>
-  </tr>
-  <tr>
-    <td><strong>Engineering</strong></td>
-    <td>Git · GitHub · Docker · Linux</td>
-  </tr>
-</table>
-
-## What I Can Build for You
-
-<table>
-  <tr>
-    <td width="50%"><strong>Launch a product</strong><br><sub>Custom web applications, SaaS MVPs, and database-driven platforms.</sub></td>
-    <td width="50%"><strong>Run a business workflow</strong><br><sub>Admin panels, analytics dashboards, inventory, and management systems.</sub></td>
-  </tr>
-  <tr>
-    <td width="50%"><strong>Build the backend</strong><br><sub>REST APIs and Python services with FastAPI.</sub></td>
-    <td width="50%"><strong>Extend an existing app</strong><br><sub>AI features, third-party integrations, debugging, and focused improvements.</sub></td>
-  </tr>
-</table>
-
-## Work With Me
-
-> Have an idea, an existing application, or a business workflow you want to turn into reliable software? I'm available for selected freelance development projects.
->
-> [![Hire Me on Fiverr](https://img.shields.io/badge/Hire_Me_on_Fiverr-1DBF73?style=for-the-badge&logo=fiverr&logoColor=white)](https://www.fiverr.com/ayoub_zarkouni)
-
-## Let's Connect
-
-For project inquiries, the fastest way to reach me is through Fiverr. You can also explore my work on GitHub, connect on LinkedIn, or contact me directly by email.
-
-[![Fiverr](https://img.shields.io/badge/Fiverr-1DBF73?style=flat-square&logo=fiverr&logoColor=white)](https://www.fiverr.com/ayoub_zarkouni)
-[![GitHub](https://img.shields.io/badge/GitHub-24292F?style=flat-square&logo=github&logoColor=white)](https://github.com/AyOuBzArO)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ayoub-zarkouni-2207373b7)
-[![Email](https://img.shields.io/badge/Email-555555?style=flat-square&logo=gmail&logoColor=white)](mailto:ayoubzarkouni30@gmail.com)
-
----
-
-<p align="center"><sub>Built by Ayoub Zarkouni · AyOuBzArO</sub></p>
+<p align="center"><sub>Designed and built by Ayoub Zarkouni · AyOuBzArO</sub></p>
