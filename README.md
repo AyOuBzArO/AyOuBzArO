@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/brand/ayoubzaro-banner.png" width="100%" alt="AyOuBzArO — Ayoub Zarkouni, Full-Stack Developer">
+  <img src="assets/brand/ayoubzaro-banner-v2.png" width="100%" alt="AyOuBzArO — Ayoub Zarkouni, Full-Stack Developer">
 </p>
 
 <img align="right" width="39%" src="assets/brand/ayoub-speaking-organic.png" alt="Ayoub Zarkouni speaking at a technology event">
