@@ -2,68 +2,58 @@
   <img src="assets/brand/ayoubzaro-banner-v2.png" width="100%" alt="AyOuBzArO — Ayoub Zarkouni, Full-Stack Developer">
 </p>
 
-<img align="right" width="39%" src="assets/brand/ayoub-speaking-organic.png" alt="Ayoub Zarkouni speaking at a technology event">
-
-<br>
-
-## Building products that work beyond the demo.
-
-I'm **Ayoub Zarkouni**, a full-stack developer who turns ideas and business requirements into reliable software—from product flows and interfaces to APIs, databases, deployment, and carefully bounded AI features.
-
-I build **SaaS products**, **business systems**, **developer tools**, and **connected web applications** with a focus on clarity, maintainability, and real-world usefulness.
-
-`SaaS` · `Business Software` · `REST APIs` · `AI Integrations` · `Product Engineering`
-
-<p>
-  <a href="#selected-work"><img src="https://img.shields.io/badge/Explore_My_Work-2F80ED?style=for-the-badge&logo=github&logoColor=white" alt="Explore my work"></a>
-  <a href="https://www.fiverr.com/ayoub_zarkouni"><img src="https://img.shields.io/badge/Work_With_Me-111111?style=for-the-badge&logo=fiverr&logoColor=white" alt="Work with me on Fiverr"></a>
+<p align="center">
+  <img src="assets/visuals/hero-editorial.svg" width="100%" alt="Ayoub Zarkouni — from idea to reliable software">
 </p>
-
-<p>
-  <a href="https://www.linkedin.com/in/ayoub-zarkouni-2207373b7"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn profile"></a>
-  <a href="mailto:ayoubzarkouni30@gmail.com"><img src="https://img.shields.io/badge/Email-555555?style=flat-square&logo=gmail&logoColor=white" alt="Email Ayoub Zarkouni"></a>
-</p>
-
-<br clear="right">
-
----
-
-## How I take a product from idea to release
 
 <p align="center">
-  <img src="assets/visuals/build-loop.svg" width="100%" alt="Animated product delivery loop: discover, design, build, validate, ship, and improve">
+  I design and build complete products—from interface and API architecture to data, deployment, and carefully bounded AI features.
 </p>
 
-> I care about the whole product: what problem it solves, how the system fits together, how it feels to use, and whether it remains dependable after launch.
+<p align="center">
+  <a href="#selected-work"><img src="https://img.shields.io/badge/SELECTED_WORK-F1EDE7?style=for-the-badge&logo=github&logoColor=171513&labelColor=F1EDE7" alt="Explore selected work"></a>
+  <a href="https://www.fiverr.com/ayoub_zarkouni"><img src="https://img.shields.io/badge/WORK_WITH_ME-171513?style=for-the-badge&logo=fiverr&logoColor=F1EDE7" alt="Work with me on Fiverr"></a>
+  <a href="https://www.linkedin.com/in/ayoub-zarkouni-2207373b7"><img src="https://img.shields.io/badge/LINKEDIN-8F725E?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn profile"></a>
+</p>
 
 ## Selected work
 
 <table>
   <tr>
-    <td width="33%" valign="top">
-      <p align="center"><img src="assets/projects/novaquill-logo.png" width="72" alt="NovaQuill logo"></p>
-      <h3 align="center">NovaQuill</h3>
-      <p align="center"><strong>AI Ebook Generation SaaS</strong></p>
-      <p>Turns a niche into a structured, export-ready ebook through research, plan-aware generation, quality review, subscriptions, sharing, and multi-format exports.</p>
-      <p><code>FastAPI</code> <code>PostgreSQL</code> <code>Stripe</code> <code>Groq</code></p>
-      <p align="center"><a href="https://novaquill.org/"><img src="https://img.shields.io/badge/Live_Product-2F80ED?style=flat-square" alt="View NovaQuill live"></a></p>
+    <td width="118" align="center"><img src="assets/projects/novaquill-logo.png" width="82" alt="NovaQuill logo"></td>
+    <td>
+      <h3>NovaQuill</h3>
+      <strong>AI Ebook Generation SaaS</strong>
+      <p>Transforms a niche into a researched, structured, and export-ready ebook with plan-aware generation, quality review, subscriptions, sharing, and multi-format publishing.</p>
+      <code>FastAPI</code> <code>PostgreSQL</code> <code>Stripe</code> <code>Groq</code>
     </td>
-    <td width="33%" valign="top">
-      <p align="center"><img src="assets/projects/siteguard-ai-logo.png" width="104" alt="SiteGuard AI logo"></p>
-      <h3 align="center">SiteGuard AI</h3>
-      <p align="center"><strong>Website Quality &amp; Audit Platform</strong></p>
+    <td width="130" align="center"><a href="https://novaquill.org/"><img src="https://img.shields.io/badge/LIVE-F1EDE7?style=for-the-badge&logoColor=171513" alt="View NovaQuill live"></a></td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td width="118" align="center"><img src="assets/projects/siteguard-ai-logo.png" width="106" alt="SiteGuard AI logo"></td>
+    <td>
+      <h3>SiteGuard AI</h3>
+      <strong>Website Quality &amp; Technical Audit Platform</strong>
       <p>Combines deterministic SEO, accessibility, security, TLS, broken-link, and performance checks with contextual remediation guidance.</p>
-      <p><code>Flask</code> <code>MySQL</code> <code>PageSpeed</code> <code>Groq</code></p>
-      <p align="center"><a href="https://github.com/AyOuBzArO/siteguard-ai"><img src="https://img.shields.io/badge/Repository-111111?style=flat-square&logo=github&logoColor=white" alt="View SiteGuard AI repository"></a></p>
+      <code>Flask</code> <code>MySQL</code> <code>PageSpeed</code> <code>Groq</code>
     </td>
-    <td width="33%" valign="top">
-      <p align="center"><img src="assets/projects/auto-rinta-car-logo.jpeg" width="82" alt="Auto Rinta Car logo"></p>
-      <h3 align="center">Auto Rinta Car</h3>
-      <p align="center"><strong>Bilingual Car Rental Platform</strong></p>
-      <p>Lets customers explore vehicles, prices, availability, galleries, and WhatsApp contact flows while staff manage the fleet from a protected workspace.</p>
-      <p><code>Flask</code> <code>SQLAlchemy</code> <code>JavaScript</code> <code>RTL</code></p>
-      <p align="center"><a href="https://autorintacar.com"><img src="https://img.shields.io/badge/Live_Product-2F80ED?style=flat-square" alt="View Auto Rinta Car live"></a></p>
+    <td width="130" align="center"><a href="https://github.com/AyOuBzArO/siteguard-ai"><img src="https://img.shields.io/badge/CODE-171513?style=for-the-badge&logo=github&logoColor=F1EDE7" alt="View SiteGuard AI repository"></a></td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td width="118" align="center"><img src="assets/projects/auto-rinta-car-logo.jpeg" width="92" alt="Auto Rinta Car logo"></td>
+    <td>
+      <h3>Auto Rinta Car</h3>
+      <strong>Bilingual Car Rental Platform</strong>
+      <p>Lets customers explore vehicles, pricing, availability, galleries, and direct WhatsApp contact flows while staff manage the fleet from a protected workspace.</p>
+      <code>Flask</code> <code>SQLAlchemy</code> <code>JavaScript</code> <code>RTL</code>
     </td>
+    <td width="130" align="center"><a href="https://autorintacar.com"><img src="https://img.shields.io/badge/LIVE-F1EDE7?style=for-the-badge&logoColor=171513" alt="View Auto Rinta Car live"></a></td>
   </tr>
 </table>
 
@@ -99,18 +89,34 @@ I build **SaaS products**, **business systems**, **developer tools**, and **conn
   </tr>
 </table>
 
-## A full-stack system, not isolated screens
+## How I take a product from idea to release
 
 <p align="center">
-  <img src="assets/visuals/system-blueprint.svg" width="100%" alt="Animated system blueprint connecting experience, application, data, intelligence, and delivery layers">
+  <img src="assets/visuals/build-path-editorial.svg" width="100%" alt="Animated product path: listen, shape, build, prove, and ship">
 </p>
 
-## Technology stack
+> The animation follows the same principle as the work: movement with a purpose, a clear path, and a reliable result.
+
+## Toolbox
 
 <p align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=python,fastapi,flask,js,ts,react,nextjs,tailwind,postgres,sqlite,docker,git,github,linux&amp;perline=7" alt="Python, FastAPI, Flask, JavaScript, TypeScript, React, Next.js, Tailwind CSS, PostgreSQL, SQLite, Docker, Git, GitHub, and Linux icons">
-  </a>
+  <img src="https://cdn.simpleicons.org/python/B69D83" width="42" alt="Python">&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/fastapi/B69D83" width="42" alt="FastAPI">&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/flask/B69D83" width="42" alt="Flask">&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/javascript/B69D83" width="42" alt="JavaScript">&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/typescript/B69D83" width="42" alt="TypeScript">&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/react/B69D83" width="42" alt="React">&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/nextdotjs/B69D83" width="42" alt="Next.js">&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/tailwindcss/B69D83" width="42" alt="Tailwind CSS">
+</p>
+<p align="center">
+  <img src="https://cdn.simpleicons.org/postgresql/B69D83" width="42" alt="PostgreSQL">&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/sqlite/B69D83" width="42" alt="SQLite">&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/docker/B69D83" width="42" alt="Docker">&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/git/B69D83" width="42" alt="Git">&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/github/B69D83" width="42" alt="GitHub">&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/linux/B69D83" width="42" alt="Linux">&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/stripe/B69D83" width="42" alt="Stripe">
 </p>
 
 <table>
@@ -121,24 +127,14 @@ I build **SaaS products**, **business systems**, **developer tools**, and **conn
   <tr><td><strong>Engineering</strong></td><td>Git · GitHub · Docker · Linux · pytest</td></tr>
 </table>
 
-## GitHub activity
-
-<p align="center">
-  <img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=AyOuBzArO&amp;theme=github_dark" alt="AyOuBzArO GitHub contribution summary">
-</p>
-<p align="center">
-  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=AyOuBzArO&amp;theme=github_dark" alt="Repositories by language">
-  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=AyOuBzArO&amp;theme=github_dark" alt="GitHub profile statistics">
-</p>
-
 ## Let's build something useful
 
 Have an idea, an existing application, or a business workflow that should become reliable software? I'm available for selected freelance product-development work.
 
 <p align="center">
-  <a href="https://www.fiverr.com/ayoub_zarkouni"><img src="https://img.shields.io/badge/Hire_Me_on_Fiverr-1DBF73?style=for-the-badge&logo=fiverr&logoColor=white" alt="Hire me on Fiverr"></a>
-  <a href="https://www.linkedin.com/in/ayoub-zarkouni-2207373b7"><img src="https://img.shields.io/badge/Connect_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="Connect on LinkedIn"></a>
-  <a href="mailto:ayoubzarkouni30@gmail.com"><img src="https://img.shields.io/badge/Send_an_Email-555555?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Ayoub Zarkouni"></a>
+  <a href="https://www.fiverr.com/ayoub_zarkouni"><img src="https://img.shields.io/badge/HIRE_ME-171513?style=for-the-badge&logo=fiverr&logoColor=F1EDE7" alt="Hire me on Fiverr"></a>
+  <a href="https://www.linkedin.com/in/ayoub-zarkouni-2207373b7"><img src="https://img.shields.io/badge/LINKEDIN-8F725E?style=for-the-badge&logo=linkedin&logoColor=white" alt="Connect on LinkedIn"></a>
+  <a href="mailto:ayoubzarkouni30@gmail.com"><img src="https://img.shields.io/badge/EMAIL-504940?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Ayoub Zarkouni"></a>
 </p>
 
 ---
