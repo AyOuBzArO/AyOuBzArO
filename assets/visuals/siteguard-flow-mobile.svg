@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="692" viewBox="0 0 500 692" role="img" aria-labelledby="title">
+  <title id="title">SiteGuard evidence flow — public URL, checks, evidence, analysis, reports, optional AI guidance</title>
+  <defs>
+    <style>
+      text{font-family:'Segoe UI',sans-serif;fill:#eee}
+      .h{font-size:25px;font-weight:650}.t{font-size:19px;font-weight:650}.s{font-size:15px;fill:#aaa}
+      .signal{fill:none;stroke:#eee;stroke-width:2;stroke-linecap:round;stroke-dasharray:14 86;animation:travel 5s cubic-bezier(.45,0,.55,1) infinite}
+      .next{animation-delay:-1.65s}.last{animation-delay:-3.3s}
+      @keyframes travel{0%{stroke-dashoffset:100;opacity:0}12%,80%{opacity:1}100%{stroke-dashoffset:-100;opacity:0}}
+      @media(prefers-reduced-motion:reduce){.signal{animation:none;stroke-dasharray:none;opacity:.65}}
+    </style>
+  </defs>
+  <rect width="500" height="692" rx="16" fill="#111"/>
+  <rect x="1" y="1" width="498" height="690" rx="15" stroke="#393939" fill="none"/>
+  <text x="26" y="33" style="font-size:12px;letter-spacing:2px;fill:#aaa">INSIDE SITEGUARD AI</text>
+  <text x="26" y="70" class="h">Evidence before explanation.</text>
+  <path d="M250 158V188M250 285V315M250 407V438H129V463M250 438H371V463M250 438V565" fill="none" stroke="#444" stroke-width="2"/>
+  <path class="signal" pathLength="100" d="M250 158V188"/>
+  <path class="signal next" pathLength="100" d="M250 285V315"/>
+  <path class="signal last" pathLength="100" d="M250 407V438H129V463"/>
+  <path class="signal last" pathLength="100" d="M250 407V438H371V463"/>
+  <path class="signal last" pathLength="100" d="M250 407V565"/>
+  <rect x="26" y="100" width="448" height="58" rx="10" fill="#202020"/>
+  <text x="44" y="126" class="t">Public URL</text>
+  <text x="44" y="147" class="s">Validate the target · crawl within limits</text>
+  <rect x="26" y="188" width="448" height="97" rx="10" fill="#202020"/>
+  <text x="44" y="219" class="t">Deterministic checks</text>
+  <text x="44" y="246" class="s">SEO · accessibility · security</text>
+  <text x="44" y="270" class="s">+ PageSpeed performance data</text>
+  <rect x="26" y="315" width="448" height="92" rx="10" fill="#ededed"/>
+  <text x="44" y="340" style="font-size:11px;letter-spacing:1.6px;fill:#555">SOURCE OF TRUTH</text>
+  <text x="44" y="365" style="font-size:21px;font-weight:700;fill:#111">Retained evidence</text>
+  <text x="44" y="390" style="font-size:15px;fill:#444">Findings + category scores</text>
+  <rect x="26" y="463" width="207" height="70" rx="10" fill="#202020"/>
+  <text x="44" y="492" class="t">Analysis</text>
+  <text x="44" y="517" class="s">Inspect + compare</text>
+  <rect x="267" y="463" width="207" height="70" rx="10" fill="#202020"/>
+  <text x="285" y="492" class="t">PDF report</text>
+  <text x="285" y="517" class="s">Share evidence</text>
+  <rect x="26" y="565" width="448" height="65" rx="10" fill="#202020"/>
+  <text x="44" y="592" class="t">Optional AI guidance</text>
+  <text x="44" y="616" class="s">Explain a selected finding with its context</text>
+  <text x="26" y="663" class="s">AI does not detect findings or set scores.</text>
+</svg>

@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="470" viewBox="0 0 1000 470" role="img" aria-labelledby="title description">
+  <title id="title">SiteGuard AI — evidence before explanation</title>
+  <desc id="description">Public URL to bounded crawl, deterministic checks, retained evidence, and three outputs: analysis workspace, PDF report, and optional AI guidance. Only connecting routes animate. All labels stay in place.</desc>
+  <defs>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r=".7" fill="#fff" opacity=".08"/></pattern>
+    <linearGradient id="rim" x2="0" y2="1"><stop stop-color="#777"/><stop offset="1" stop-color="#303030"/></linearGradient>
+    <style>
+      text{font-family:'Segoe UI',sans-serif;fill:#f4f4f4}
+      .eyebrow{font-size:12px;letter-spacing:2.4px;fill:#aaa}
+      .title{font-size:30px;font-weight:650;letter-spacing:-.8px}
+      .label{font-size:17px;font-weight:650}
+      .small{font-size:13px;fill:#aaa}
+      .wire{fill:none;stroke:#404040;stroke-width:2}
+      .signal{fill:none;stroke:#eee;stroke-width:2;stroke-linecap:round;stroke-dasharray:14 86;animation:travel 5s cubic-bezier(.45,0,.55,1) infinite}
+      .next{animation-delay:-1.65s}.last{animation-delay:-3.3s}
+      @keyframes travel{0%{stroke-dashoffset:100;opacity:0}12%{opacity:1}80%{opacity:1}100%{stroke-dashoffset:-100;opacity:0}}
+      @media(prefers-reduced-motion:reduce){.signal{animation:none;stroke-dasharray:none;opacity:.65}}
+    </style>
+  </defs>
+  <rect width="1000" height="470" rx="18" fill="#111"/>
+  <rect x="1" y="1" width="998" height="468" rx="17" fill="none" stroke="#393939"/>
+  <rect x="1" y="1" width="998" height="468" rx="17" fill="url(#grid)"/>
+  <text x="36" y="41" class="eyebrow">ENGINEERING NOTE / SITEGUARD AI</text>
+  <text x="36" y="82" class="title">Evidence first. Explanation second.</text>
+  <text x="36" y="110" class="small">A public website becomes findings you can inspect and act on.</text>
+  <path class="wire" d="M196 227H242M442 227H492M684 227H712V174H744M712 227V284H744M588 276V344H744"/>
+  <path class="signal" pathLength="100" d="M196 227H242"/>
+  <path class="signal next" pathLength="100" d="M442 227H492"/>
+  <path class="signal last" pathLength="100" d="M684 227H712V174H744"/>
+  <path class="signal last" pathLength="100" d="M684 227H712V284H744"/>
+  <path class="signal last" pathLength="100" d="M588 276V344H744"/>
+  <g transform="translate(36 177)">
+    <rect width="160" height="100" rx="12" fill="#1c1c1c" stroke="url(#rim)"/>
+    <circle cx="24" cy="24" r="9" fill="none" stroke="#bbb" stroke-width="1.5"/>
+    <path d="M15 24h18M24 15c-7 4-7 14 0 18M24 15c7 4 7 14 0 18" fill="none" stroke="#bbb" stroke-width="1"/>
+    <text x="18" y="58" class="label">Public URL</text>
+    <text x="18" y="81" class="small">Validate · bound · crawl</text>
+  </g>
+  <g transform="translate(242 159)">
+    <rect width="200" height="136" rx="12" fill="#1c1c1c" stroke="url(#rim)"/>
+    <path d="M20 22h23M20 28h16M20 34h20" stroke="#bbb" stroke-width="1.5" fill="none"/>
+    <text x="18" y="62" class="label">Deterministic checks</text>
+    <text x="18" y="88" class="small">SEO · accessibility · security</text>
+    <text x="18" y="111" class="small">+ PageSpeed performance</text>
+  </g>
+  <g transform="translate(492 177)">
+    <rect width="192" height="100" rx="12" fill="#ededed"/>
+    <text x="18" y="30" style="fill:#555;font-size:11px;letter-spacing:1.4px">SOURCE OF TRUTH</text>
+    <text x="18" y="58" style="fill:#111;font-size:18px;font-weight:700">Retained evidence</text>
+    <text x="18" y="81" style="fill:#444;font-size:13px">Findings + category scores</text>
+  </g>
+  <g transform="translate(744 147)">
+    <rect width="220" height="55" rx="10" fill="#202020"/>
+    <text x="18" y="23" class="label">Analysis workspace</text>
+    <text x="18" y="43" class="small">Inspect findings and history</text>
+  </g>
+  <g transform="translate(744 257)">
+    <rect width="220" height="55" rx="10" fill="#202020"/>
+    <text x="18" y="23" class="label">PDF report</text>
+    <text x="18" y="43" class="small">Share the scan evidence</text>
+  </g>
+  <g transform="translate(744 325)">
+    <rect width="220" height="62" rx="10" fill="#202020"/>
+    <text x="18" y="25" class="label">Optional AI guidance</text>
+    <text x="18" y="47" class="small">Explain a selected finding</text>
+  </g>
+  <text x="510" y="371" class="small">Selected finding + context</text>
+  <path d="M36 415H964" stroke="#333"/>
+  <circle cx="43" cy="441" r="4" fill="#ddd"/>
+  <text x="57" y="445" class="small">AI assists with remediation. It does not detect findings or set scores.</text>
+</svg>
