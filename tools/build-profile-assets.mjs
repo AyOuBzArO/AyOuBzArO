@@ -34,47 +34,15 @@ for(const p of [
   }
 }
 
-// Brand color is limited to the icons. Shared typography and spacing replace tiles.
-const groups=[
-  {id:'backend',title:'Backend & data',note:'APIs, application logic and persistence',tools:[['python','Python','#75b5e4'],['fastapi','FastAPI','#2dd4bf'],['flask','Flask','#eee'],['postgresql','PostgreSQL','#7baad3'],['sqlite','SQLite','#78c6e8']]},
-  {id:'interfaces',title:'Interfaces',note:'The parts people see, touch and navigate',tools:[['javascript','JavaScript','#f7df1e'],['typescript','TypeScript','#65a7eb'],['react','React','#61dafb'],['nextdotjs','Next.js','#eee'],['tailwindcss','Tailwind CSS','#38bdf8']]},
-  {id:'delivery',title:'Delivery & integrations',note:'Shipping, version control and payments',tools:[['docker','Docker','#57adfa'],['git','Git','#f67863'],['linux','Linux','#eee'],['stripe','Stripe','#a5a0ff']]}
-];
-for(const group of groups){
-  const paths=await Promise.all(group.tools.map(async([slug])=>{
-    const raw=await fs.readFile(`assets/stack/${slug}.svg`,'utf8');
-    return raw.match(/<path\b[^>]*\/>/g).join('');
-  }));
-  for(const mobile of [false,true]){
-    const w=mobile?500:1000,h=mobile?330:176;
-    let b=text(28,42,group.title,mobile?25:23,'#fff',700)+text(28,69,group.note,mobile?16:14,'#aeb3ba');
-    if(!mobile)b+=line(345,26,345,150);
-    group.tools.forEach(([slug,label,color],i)=>{
-      const x=mobile?38+(i%3)*153:379+i*121,y=mobile?110+Math.floor(i/3)*106:44;
-      b+=`<g transform="translate(${x} ${y}) scale(1.7)" fill="${color}">${paths[i]}</g>`;
-      b+=text(x+20,y+65,label,mobile?16:14,'#e6e9ed',500,'text-anchor="middle"');
-    });
-    await save(`stack-${group.id}${mobile?'-mobile':''}`,base(w,h,group.title+': '+group.tools.map(t=>t[1]).join(', '),b));
-  }
-}
-
-// A second concrete product diagram, with fixed labels and moving connectors only.
-for(const mobile of [false,true]){
-  const w=mobile?500:1000,h=mobile?650:324;
-  let b=text(28,36,'INSIDE NOVAQUILL',12,'#aeb3ba',600,'letter-spacing="2"')+text(28,76,'From a topic to a finished ebook.',mobile?25:31,'#fff',700);
-  const stages=[['Topic','Choose a niche'],['Research','Analyse the opportunity'],['Generate','Build the chapters'],['Review','Check the content'],['Export','PDF · DOCX · EPUB']];
-  stages.forEach(([label,detail],i)=>{
-    const x=mobile?28:28+i*190,y=mobile?108+i*98:131,bw=mobile?444:170,bh=mobile?74:104;
-    if(i<4){
-      const d=mobile?`M250 ${y+bh}V${y+98}`:`M${x+bw} ${y+52}H${x+190}`;
-      b+=`<path d="${d}" fill="none" stroke="#555" stroke-width="2"/><path class="signal" pathLength="100" d="${d}" style="animation-delay:-${i}s"/>`;
-    }
-    b+=rect(x,y,bw,bh,i===4?'#eceff2':'#202327');
-    b+=text(x+18,y+31,label,21,i===4?'#16191c':'#f1f3f5',700);
-    b+=text(x+18,y+57,detail,mobile?17:13,i===4?'#4b5159':'#b9bfc7');
-  });
-  b+=text(28,h-25,'Accounts, subscriptions and plan limits surround the workflow.',mobile?14:16,'#aeb3ba');
-  await save(`novaquill-flow${mobile?'-mobile':''}`,base(w,h,'NovaQuill: topic, research, generate, review, export',b));
+// Individual compact badges: original vector artwork and its colors are untouched.
+await fs.mkdir('assets/stack-color',{recursive:true});
+const stackNames=[['python','Python'],['fastapi','FastAPI'],['flask','Flask'],['postgresql','PostgreSQL'],['sqlite','SQLite'],['javascript','JavaScript'],['typescript','TypeScript'],['react','React'],['nextjs','Next.js'],['tailwindcss','Tailwind CSS'],['docker','Docker'],['git','Git'],['linux','Linux'],['stripe','Stripe']];
+for(const [id,label] of stackNames){
+  const svg=await fs.readFile('assets/stack-originals/'+id+'.svg','utf8');
+  const image='data:image/svg+xml;base64,'+Buffer.from(svg).toString('base64');
+  const plate=['flask','linux','nextjs','stripe'].includes(id)?rect(17,10,56,56,'#f8fafc',10):'';
+  const asset='<svg xmlns="http://www.w3.org/2000/svg" width="90" height="94" viewBox="0 0 90 94" role="img"><title>'+label+'</title>'+rect(1,1,88,92,'#161b22',12)+'<rect x="1" y="1" width="88" height="92" rx="12" stroke="#30363d" fill="none"/>'+plate+'<image href="'+image+'" x="22" y="15" width="46" height="46" preserveAspectRatio="xMidYMid meet"/>'+text(45,81,label,11,'#e6edf3',500,'text-anchor="middle"')+'</svg>';
+  await fs.writeFile('assets/stack-color/'+id+'.svg',asset);
 }
 
 // Public-only, reproducible snapshot. No tokens, private repositories or inferred totals.
@@ -97,23 +65,7 @@ if(process.argv.includes('--refresh-stats')){
 const sorted=Object.entries(snapshot.languages).sort((a,b)=>b[1]-a[1]);
 const total=sorted.reduce((n,r)=>n+r[1],0);
 const rows=sorted.length>6?[...sorted.slice(0,5),['Other',sorted.slice(5).reduce((n,r)=>n+r[1],0)]]:sorted;
-for(const mobile of [false,true]){
-  const w=mobile?500:1000,h=mobile?740:500;
-  let b=text(28,37,'GITHUB / PUBLIC SNAPSHOT',12,'#aeb3ba',600,'letter-spacing="1.7"')+text(28,78,'A small window into my work.',mobile?26:32,'#fff',700);
-  const metrics=[[snapshot.publicRepos,'Public repos'],[snapshot.stars,'Stars received'],[snapshot.followers,'Followers']];
-  metrics.forEach(([v,label],i)=>{const x=28+i*(w-56)/3;b+=text(x,143,v,44,'#fff',700)+text(x,171,label,mobile?15:16,'#aeb3ba');});
-  b+=line(28,198,w-28,198)+text(28,234,'Language mix',23,'#fff',700)+text(28,260,`Share of code bytes · ${snapshot.repositories.length} public project repositories`,mobile?14:16,'#aeb3ba');
-  const bw=mobile?350:660,bx=mobile?28:215;
-  rows.forEach(([label,bytes],i)=>{
-    const pct=total?100*bytes/total:0,y=mobile?299+i*62:294+i*27;
-    b+=text(28,y,label,16,'#d9dee5',500);
-    const by=mobile?y+12:y-11;
-    b+=rect(bx,by,bw,9,'#30343a',4)+rect(bx,by,bw*pct/100,9,i===0?'#f1f3f5':'#909aa6',4);
-    b+=text(mobile?472:962,mobile?y+21:y,`${pct.toFixed(1)}%`,15,'#d9dee5',500,'text-anchor="end"');
-  });
-  b+=text(28,h-44,`Updated ${snapshot.fetchedAt.slice(0,10)} · Source: GitHub REST API`,mobile?13:14,'#aeb3ba');
-  b+=text(28,h-21,'Excludes private work. Language share is not a skill rating.',mobile?13:14,'#aeb3ba');
-  await save(`github-stats${mobile?'-mobile':''}`,base(w,h,`${snapshot.publicRepos} public repos, ${snapshot.stars} stars, ${snapshot.followers} followers. Language byte shares: ${rows.map(([l,b])=>`${l} ${(100*b/total).toFixed(1)}%`).join(', ')}. Snapshot ${snapshot.fetchedAt.slice(0,10)}.`,b));
-}
+const {buildActivityCharts}=await import('./build-activity-charts.mjs');
+await buildActivityCharts(snapshot);
 await fs.writeFile('assets/data/github-public.md',`# Public GitHub snapshot\n\nUpdated: ${snapshot.fetchedAt}\n\n${snapshot.scope}\n\n| Metric | Value |\n| --- | ---: |\n| Public repos | ${snapshot.publicRepos} |\n| Stars received | ${snapshot.stars} |\n| Followers | ${snapshot.followers} |\n\n| Language | Bytes | Share |\n| --- | ---: | ---: |\n${sorted.map(([l,b])=>`| ${l} | ${b} | ${(100*b/total).toFixed(1)}% |`).join('\n')}\n\nSource: [GitHub REST API](${snapshot.source}).\n\nIncluded projects:\n${snapshot.repositories.map(r=>`- [${r.name}](${r.url})`).join('\n')}\n`);
-console.log(`Built project covers, stack panels, NovaQuill diagrams and statistics (${snapshot.fetchedAt}).`);
+console.log(`Built project covers, original-color stack badges and colorful statistics (${snapshot.fetchedAt}).`);

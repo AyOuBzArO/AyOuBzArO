@@ -1,0 +1,66 @@
+{
+  "revision": "7330accdbc47e2dc0c19789a48533c4a3c50fe58",
+  "note": "Original SVG artwork and colors retained. Devicon is a community-maintained brand icon collection, not an endorsement by the brands.",
+  "sources": [
+    {
+      "name": "python",
+      "url": "https://raw.githubusercontent.com/devicons/devicon/7330accdbc47e2dc0c19789a48533c4a3c50fe58/icons/python/python-original.svg"
+    },
+    {
+      "name": "fastapi",
+      "url": "https://raw.githubusercontent.com/devicons/devicon/7330accdbc47e2dc0c19789a48533c4a3c50fe58/icons/fastapi/fastapi-original.svg"
+    },
+    {
+      "name": "flask",
+      "url": "https://raw.githubusercontent.com/devicons/devicon/7330accdbc47e2dc0c19789a48533c4a3c50fe58/icons/flask/flask-original.svg"
+    },
+    {
+      "name": "postgresql",
+      "url": "https://raw.githubusercontent.com/devicons/devicon/7330accdbc47e2dc0c19789a48533c4a3c50fe58/icons/postgresql/postgresql-original.svg"
+    },
+    {
+      "name": "sqlite",
+      "url": "https://raw.githubusercontent.com/devicons/devicon/7330accdbc47e2dc0c19789a48533c4a3c50fe58/icons/sqlite/sqlite-original.svg"
+    },
+    {
+      "name": "javascript",
+      "url": "https://raw.githubusercontent.com/devicons/devicon/7330accdbc47e2dc0c19789a48533c4a3c50fe58/icons/javascript/javascript-original.svg"
+    },
+    {
+      "name": "typescript",
+      "url": "https://raw.githubusercontent.com/devicons/devicon/7330accdbc47e2dc0c19789a48533c4a3c50fe58/icons/typescript/typescript-original.svg"
+    },
+    {
+      "name": "react",
+      "url": "https://raw.githubusercontent.com/devicons/devicon/7330accdbc47e2dc0c19789a48533c4a3c50fe58/icons/react/react-original.svg"
+    },
+    {
+      "name": "nextjs",
+      "url": "https://raw.githubusercontent.com/devicons/devicon/7330accdbc47e2dc0c19789a48533c4a3c50fe58/icons/nextjs/nextjs-original.svg"
+    },
+    {
+      "name": "tailwindcss",
+      "url": "https://raw.githubusercontent.com/devicons/devicon/7330accdbc47e2dc0c19789a48533c4a3c50fe58/icons/tailwindcss/tailwindcss-original.svg"
+    },
+    {
+      "name": "docker",
+      "url": "https://raw.githubusercontent.com/devicons/devicon/7330accdbc47e2dc0c19789a48533c4a3c50fe58/icons/docker/docker-original.svg"
+    },
+    {
+      "name": "git",
+      "url": "https://raw.githubusercontent.com/devicons/devicon/7330accdbc47e2dc0c19789a48533c4a3c50fe58/icons/git/git-original.svg"
+    },
+    {
+      "name": "linux",
+      "url": "https://raw.githubusercontent.com/devicons/devicon/7330accdbc47e2dc0c19789a48533c4a3c50fe58/icons/linux/linux-original.svg"
+    }
+  ],
+  "externalSources": [
+    {
+      "name": "stripe",
+      "url": "https://assets.stripeassets.com/fzn2n1nzq965/7q0dJGs6fRS1LRmMpChoAF/87def4edfbb7fd5aef4ab9baf904b2db/Stripe_logo_kit.zip",
+      "entry": "asset-wordmark/Stripe wordmark - Blurple.svg",
+      "note": "Official Stripe logo kit; retained in its original Blurple color."
+    }
+  ]
+}
