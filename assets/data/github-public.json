@@ -1,0 +1,31 @@
+{
+  "fetchedAt": "2026-10-10T08:35:37.138Z",
+  "source": "https://api.github.com/users/AyOuBzArO",
+  "scope": "Public owned repositories. Language bytes exclude forks and the profile README repository; private work is not included.",
+  "publicRepos": 4,
+  "stars": 1,
+  "followers": 4,
+  "repositories": [
+    {
+      "name": "Developer-Portfolio-Analytics-Platform_Devscope",
+      "url": "https://github.com/AyOuBzArO/Developer-Portfolio-Analytics-Platform_Devscope"
+    },
+    {
+      "name": "Inventory-management-system",
+      "url": "https://github.com/AyOuBzArO/Inventory-management-system"
+    },
+    {
+      "name": "siteguard-ai",
+      "url": "https://github.com/AyOuBzArO/siteguard-ai"
+    }
+  ],
+  "languages": {
+    "TypeScript": 340178,
+    "Python": 850592,
+    "CSS": 58940,
+    "Dockerfile": 3054,
+    "JavaScript": 172307,
+    "Shell": 312,
+    "HTML": 300186
+  }
+}
